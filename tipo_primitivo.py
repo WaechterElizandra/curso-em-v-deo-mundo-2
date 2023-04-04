@@ -1,0 +1,12 @@
+# faça um programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todoas informações possiveis sobre ela
+coisa = input('\033[4;36mDigite algo: ')
+print('O que você digitou é do tipo: ',type(coisa))
+print('O que você digitou é alfanumérico? ',coisa.isalnum())
+print('O que você digitou é um alfabético? ',coisa.isalpha())
+print('O que você digitou é um número: ',coisa.isnumeric())
+print('O que você digitou é: ',coisa.isascii())
+print('O que você digitou é um digito? ',coisa.isdigit())
+print('O que você digitou é decimal? ',coisa.isdecimal())
+print('O que você digitou está em minusculas? ',coisa.islower())
+print('O que você digitou tem espaços? ',coisa.isspace())
+print('O que você digitou está em maiuscúlas? ',coisa.isupper())
